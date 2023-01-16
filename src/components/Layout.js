@@ -5,7 +5,7 @@ function Layout({ children }) {
   const menuItems = [
     {
       title: "Home",
-      paths: "/",
+      path: "/",
       icon: "ri-home-smile-line",
     },
     {
@@ -26,27 +26,24 @@ function Layout({ children }) {
   ];
   return (
     <div>
-      {/* content */}
-      <div className="content">{children}</div>
       {/* Footer */}
-      <div className="fixed bottom-3  left-0 right-0">
+      <div className="fixed top-0  left-0 right-0">
         <div className="flex w-full justify-center ">
           {menuItems.map((menu, index) => (
             <div className="flex flex-col justify-end items-center">
-              {location.pathname === menu.path && (
+              {/* {location.pathname === menu.path && (
                 <div className="h-10 w-20 bg-primary rounded-t-full  text-center pt-3">
                   <i className={`${menu.icon} text-white text-xl  `}></i>
                 </div>
-              )}
+              )} */}
               <div
-                className={`px-20 bg-primary py-4   ${
-                  index === 0 && "rounded-l"
-                } ${index === menuItems.length - 1 && "rounded-r"}
+                className={`px-20 bg-red py-4   ${index === 0 && "rounded-l"} ${
+                  index === menuItems.length - 1 && "rounded-r"
+                }
                 flex items-center justify-center space-x-2`}
               >
-                {location.pathname !== menu.path && (
-                  <i className={`${menu.icon} text-secondary text-xl  `}></i>
-                )}
+                <i className={`${menu.icon} text-secondary text-xl  `}></i>
+
                 <Link to={menu.path} className="text-secondary text-xl">
                   {menu.title}
                 </Link>
@@ -55,6 +52,8 @@ function Layout({ children }) {
           ))}
         </div>
       </div>
+      {/* content */}
+      <div className="content">{children}</div>
     </div>
   );
 }
