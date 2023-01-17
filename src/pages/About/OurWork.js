@@ -37,7 +37,7 @@ function OurWork() {
       <div className="grid grid-cols-4 gap-x-12 ">
         {work.map((work) => {
           return (
-            <div className=" rounded p-6 ourwork-boxshadow mb-20">
+            <div className=" rounded p-6 boxshadow mb-20">
               <h1 className="text-semibold text-center text-2xl mb-8">
                 {work.title}
               </h1>

@@ -6,10 +6,8 @@ import WhyUs from "./WhyUs";
 function About() {
   return (
     <Layout>
-      {/* <div>
-        <Intro />
-      </div> */}
       <div className="p-32">
+        {/* <Intro /> */}
         <OurWork />
         <WhyUs />
       </div>
