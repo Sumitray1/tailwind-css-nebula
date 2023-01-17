@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 function Layout({ children }) {
-  const location = useLocation();
+  // const location = useLocation();
   const menuItems = [
     {
       title: "Home",
