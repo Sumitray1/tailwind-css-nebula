@@ -21,7 +21,7 @@ function WhyUs() {
         "We are always here to help you with any questions you may have. We are always here to help you with any questions you may have. We are always here to help you with any questions you may have.",
     },
   ];
-  return <div>WhyUs</div>;
+  return <div>why we choose</div>;
 }
 
 export default WhyUs;
