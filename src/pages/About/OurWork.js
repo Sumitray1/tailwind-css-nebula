@@ -30,7 +30,7 @@ function OurWork() {
     },
   ];
   return (
-    <div className="p-32">
+    <div>
       <h1 className="text-7xl font-semibold text-primary mb-20">
         Our Team <span className="text-secondary">Specilization...</span>
       </h1>
