@@ -5,3 +5,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* About page */
+html,
+body {
+  overflow-x: hidden;
+}
+.about-intro {
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00, #ec9f05 74%);
+  overflow-x: hidden !important;
+  position: absolute;
+  transform: rotate(12deg);
+  top: -29%;
+  right: 42px;
+  left: -100px;
+  border-radius: 20px;
+}
+.ourwork-boxshadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 13px;
+}
