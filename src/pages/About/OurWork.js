@@ -31,8 +31,8 @@ function OurWork() {
   ];
   return (
     <div className="p-32">
-      <h1 className="text-7xl font-semibold text-secondary mb-20">
-        Our Specilization...
+      <h1 className="text-7xl font-semibold text-primary mb-20">
+        Our Team <span className="text-secondary">Specilization...</span>
       </h1>
       <div className="grid grid-cols-4 gap-x-12 ">
         {work.map((work) => {
@@ -54,8 +54,10 @@ function OurWork() {
             </div>
           );
         })}
-        <h1> What makes us different?</h1>
       </div>
+      <h1 className=" text-7xl font-semibold text-primary mb-20">
+        What makes us <spain className="text-secondary"> different?</spain>
+      </h1>
     </div>
   );
 }

@@ -11,6 +11,30 @@ function About() {
       <div>
         <OurWork />
       </div>
+      <div className="flex">
+        <lottie-player
+          src="https://assets10.lottiefiles.com/packages/lf20_bph802nj.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
+        <lottie-player
+          src="https://assets10.lottiefiles.com/packages/lf20_1lw2izrp.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
+
+        <lottie-player
+          src="https://assets10.lottiefiles.com/packages/lf20_rMIWDc0fSB.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
     </Layout>
   );
 }
