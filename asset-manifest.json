@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tailwind-css-nebula/static/css/main.c21e82e1.css",
+    "main.js": "/tailwind-css-nebula/static/js/main.47081a60.js",
+    "static/js/787.0a148ad6.chunk.js": "/tailwind-css-nebula/static/js/787.0a148ad6.chunk.js",
+    "index.html": "/tailwind-css-nebula/index.html",
+    "main.c21e82e1.css.map": "/tailwind-css-nebula/static/css/main.c21e82e1.css.map",
+    "main.47081a60.js.map": "/tailwind-css-nebula/static/js/main.47081a60.js.map",
+    "787.0a148ad6.chunk.js.map": "/tailwind-css-nebula/static/js/787.0a148ad6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c21e82e1.css",
+    "static/js/main.47081a60.js"
+  ]
+}
