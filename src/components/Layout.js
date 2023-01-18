@@ -27,24 +27,24 @@ function Layout({ children }) {
   return (
     <div>
       {/* Footer */}
-      <div className="fixed top-0  left-0 right-0">
-        <div className="flex w-full justify-center ">
+      <div className="fixed top-0  left-0 right-0 mob:bg-primary">
+        <div className="flex  justify-center ">
           {menuItems.map((menu, index) => (
-            <div className="flex flex-col justify-end items-center">
+            <div className="flex flex-col justify-space items-center ">
               {/* {location.pathname === menu.path && (
                 <div className="h-10 w-20 bg-primary rounded-t-full  text-center pt-3">
                   <i className={`${menu.icon} text-white text-xl  `}></i>
                 </div>
               )} */}
               <div
-                className={`px-20 bg-red py-4   ${index === 0 && "rounded-l"} ${
+                className={`px-20 bg-red py-4  mob:px-4  ${index === 0 && "rounded-l"} ${
                   index === menuItems.length - 1 && "rounded-r"
                 }
-                flex items-center justify-center space-x-2`}
+                flex items-center justify-center space-x-2 mob:space-x-1`}
               >
-                <i className={`${menu.icon} text-secondary text-xl  `}></i>
+                <i className={`${menu.icon} text-secondary text-xl  mob:text-base `}></i>
 
-                <Link to={menu.path} className="text-secondary text-xl">
+                <Link to={menu.path} className="text-secondary text-xl mob:text-base">
                   {menu.title}
                 </Link>
               </div>
@@ -53,7 +53,7 @@ function Layout({ children }) {
         </div>
       </div>
       {/* content */}
-      <div className="content">{children}</div>
+      <div className=" ">{children}</div>
     </div>
   );
 }
