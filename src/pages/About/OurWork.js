@@ -31,10 +31,10 @@ function OurWork() {
   ];
   return (
     <div>
-      <h1 className="text-7xl font-semibold text-primary mb-20">
-        Our Team <span className="text-secondary">Specilization...</span>
+      <h1 className="text-7xl font-semibold text-primary mb-20 mob:text-5xl mob:leading-snug">
+        Our Team <span className="text-secondary">Specilization</span>
       </h1>
-      <div className="grid grid-cols-4 gap-x-12 ">
+      <div className="grid grid-cols-4 gap-x-12 mob:grid-cols-1  ">
         {work.map((work) => {
           return (
             <div className=" rounded p-6 boxshadow mb-20">
@@ -55,7 +55,7 @@ function OurWork() {
           );
         })}
       </div>
-      <h1 className=" text-7xl font-semibold text-primary mb-20">
+      <h1 className=" text-7xl font-semibold text-primary mb-20 mob:text-5xl mob:leading-snug">
         What makes us <spain className="text-secondary"> different?</spain>
       </h1>
     </div>

@@ -23,7 +23,7 @@ function WhyUs() {
   ];
   return (
     <div>
-      <div className="grid grid-cols-3 gap-x-12 ">
+      <div className="grid grid-cols-3 gap-x-12 mob:grid-cols-1 ">
         {motive.map((work) => {
           return (
             <div className=" rounded p-6 boxshadow mb-20">

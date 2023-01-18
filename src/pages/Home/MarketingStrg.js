@@ -49,7 +49,7 @@ function MarketingStrg() {
               <h1 className="text-center text-secondary font-bold text-xxl -mt-11 bg-white border border-secondary ">
                 {content.title}
               </h1>
-              <div className=" w-36 mb-3">
+              <div className=" w-36 mb-3 r">
                 <lottie-player
                   src={content.src}
                   background="transparent"
