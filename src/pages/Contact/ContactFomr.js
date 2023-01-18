@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactFomr() {
   return (
-    <div className=" p-20 rounded-r-lg bg-primary  ">
+    <div className=" p-20 rounded-r-lg bg-primary  mob:p-2  ">
       <form className="flex flex-col gap-y-10">
         <h1 className="text-4xl font-semibold mb-5 text-white">Message us</h1>
 
@@ -43,8 +43,8 @@ function ContactFomr() {
           />
         </div>
 
-        <div className="flex justify-left">
-          <button className="text-white bg-secondary px-14 py-3 rounded max-w-max">
+        <div className="flex justify-left mob:mb-14">
+          <button className="text-white bg-secondary px-14 py-3 rounded max-w-max mob:ml-8">
             Send A Message
           </button>
         </div>

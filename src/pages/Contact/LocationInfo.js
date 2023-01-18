@@ -29,7 +29,7 @@ function LocationInfo() {
     },
   ];
   return (
-    <div className="bg-primary rounded-l-lg flex flex-col gap-y-10  p-20 text-white  ">
+    <div className="bg-primary rounded-l-lg flex flex-col gap-y-10  p-20 text-white  mob:px-3 mob:py-10">
       <h1 className="font-semibold text-4xl ">Reach Out To Us</h1>
       <p className="">
         We at Team Nebula create mobile apps, develop websites, design graphics
