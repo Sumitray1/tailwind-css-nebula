@@ -45,7 +45,7 @@ function MarketingStrg() {
       <div className="grid grid-cols-2 gap-x-36 gap-y-16 mb-14 mob:grid-cols-1">
         {strategies.map((content) => {
           return (
-            <div className="border border-primary rounded p-8   ">
+            <div className="border border-primary rounded p-8 mob:p-5  ">
               <h1 className="text-center text-secondary font-bold text-xxl -mt-11 bg-white border border-secondary ">
                 {content.title}
               </h1>
@@ -63,11 +63,12 @@ function MarketingStrg() {
           );
         })}
       </div>
-      <div className="flex justify-between">
-        <div>
-          <h1 className="text-primary text-6xl font-semibold mb-14 mob:text-4">
+      <h1 className="text-primary text-6xl font-semibold mb-14 mob:text-4xl ">
             Why <span className="text-secondary">Nebula</span> ?
           </h1>
+      <div className="flex justify-between mob:flex-col-reverse ">
+        <div>
+         
           <p className="text-gray-600 text-xl mb-14 mob:text-base">
             Nebula is able to provide a wide variety of products at a
             competitive price. We have a reputation for providing high-quality
@@ -77,7 +78,7 @@ function MarketingStrg() {
             supports
           </p>
         </div>
-        <div className=" w-1/3">
+        <div className=" w-1/3 mb-10 -mt-16 mob:-mt-4">
           <lottie-player
             src="https://assets5.lottiefiles.com/packages/lf20_ecsh092g.json"
             background="transparent"
