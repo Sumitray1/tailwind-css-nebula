@@ -5,7 +5,7 @@ import MarketingStrg from "./MarketingStrg";
 function Home() {
   return (
     <Layout>
-      <div className=" p-32">
+      <div className=" p-32 mob:px-3 ">
         <Intro />
         <MarketingStrg />
       </div>
