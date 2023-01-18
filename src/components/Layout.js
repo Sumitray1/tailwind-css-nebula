@@ -37,7 +37,7 @@ function Layout({ children }) {
                 </div>
               )} */}
               <div
-                className={`px-20 bg-red py-4  mob:px-4  ${index === 0 && "rounded-l"} ${
+                className={`px-20 bg-red py-4  mob:px-3  ${index === 0 && "rounded-l"} ${
                   index === menuItems.length - 1 && "rounded-r"
                 }
                 flex items-center justify-center space-x-2 mob:space-x-1`}

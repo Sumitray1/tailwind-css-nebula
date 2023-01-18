@@ -46,7 +46,7 @@ function MarketingStrg() {
         {strategies.map((content) => {
           return (
             <div className="border border-primary rounded p-8 mob:p-5  ">
-              <h1 className="text-center text-secondary font-bold text-xxl -mt-11 bg-white border border-secondary ">
+              <h1 className="text-center text-secondary font-bold text-xxl -mt-11 bg-white border border-secondary mob:-mt-9">
                 {content.title}
               </h1>
               <div className=" w-36 mb-3 r">
