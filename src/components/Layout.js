@@ -27,7 +27,7 @@ function Layout({ children }) {
   return (
     <div>
       {/* Footer */}
-      <div className="fixed top-0  left-0 right-0 mob:bg-primary">
+      <div className="fixed top-0  left-0 right-0 mob:bg-primary z-10">
         <div className="flex  justify-center ">
           {menuItems.map((menu, index) => (
             <div className="flex flex-col justify-space items-center ">
@@ -53,7 +53,7 @@ function Layout({ children }) {
         </div>
       </div>
       {/* content */}
-      <div className=" ">{children}</div>
+      <div className="z-0">{children}</div>
     </div>
   );
 }

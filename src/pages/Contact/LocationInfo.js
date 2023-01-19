@@ -66,7 +66,7 @@ function LocationInfo() {
       <div className="mt-2 flex items-center justify-between px-2">
         {socailmediaIcon.map((icon) => {
           return (
-            <div className="text-3xl  text-secondary  bg-[#302e2e] h-16 w-16 text-center  rounded-full flex items-center justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  mob:h-13 mob:w-13 mob:pt-1">
+            <div className="text-3xl  text-secondary  bg-[#302e2e] h-16 w-16 text-center  rounded-full flex items-center justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  mob:h-11 mob:w-11 mob:pt-1">
               <a href={ icon.link}  >
               <i class={icon.icon}></i>
               </a>
