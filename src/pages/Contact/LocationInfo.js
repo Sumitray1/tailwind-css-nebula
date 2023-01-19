@@ -6,10 +6,19 @@ function LocationInfo() {
       icon: "ri-facebook-fill",
       link: "https://www.facebook.com/profile.php?id=100004349836670",
     },
-    { icon: "ri-instagram-line" },
+    {
+      icon: "ri-instagram-line",
+      link:"https://www.instagram.com/ray_sumit_/"
+
+    },
     { icon: "ri-twitter-line" },
-    { icon: "ri-linkedin-box-fill" },
-    { icon: " ri-github-fill" },
+    {
+      icon: "ri-linkedin-box-fill",
+      link:"https://www.linkedin.com/in/sumit-ray-0b992b215/"
+    },
+    {
+      icon: " ri-github-fill",
+    link:"https://github.com/Sumitray1"},
   ];
   const addressDetails = [
     {
@@ -39,8 +48,8 @@ function LocationInfo() {
         {addressDetails.map((address) => {
           return (
             <div className="flex gap-x-10 item-center ">
-              <div className="text-secondary text-2xl bg-[#302e2e]  rounded w-16 text-center py-2 shadow ">
-                <i class={address.icon}></i>
+              <div className="text-secondary text-2xl bg-[#302e2e]  rounded w-16 text-center py-2 shadow  ">
+                <i class={address.icon} ></i>
               </div>
               <div className="flex flex-col">
                 <h1>{address.title}</h1>
@@ -57,8 +66,10 @@ function LocationInfo() {
       <div className="mt-2 flex items-center justify-between px-2">
         {socailmediaIcon.map((icon) => {
           return (
-            <div className="text-3xl  text-secondary  bg-[#302e2e] h-16 w-16 text-center  rounded-full flex items-center justify-center ">
+            <div className="text-3xl  text-secondary  bg-[#302e2e] h-16 w-16 text-center  rounded-full flex items-center justify-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  mob:h-13 mob:w-13 mob:pt-4">
+              <a href={ icon.link}  >
               <i class={icon.icon}></i>
+              </a>
             </div>
           );
         })}

@@ -44,7 +44,7 @@ function ContactFomr() {
         </div>
 
         <div className="flex justify-left mob:mb-6">
-          <button className="text-white bg-secondary px-14 py-3 rounded max-w-max mob:px-28 mob:ml-1 mob:tracking-wider">
+          <button className="text-white bg-secondary px-14 py-3 rounded max-w-max mob:px-29 mob:ml-1 mob:tracking-wide">
             Send A Message
           </button>
         </div>

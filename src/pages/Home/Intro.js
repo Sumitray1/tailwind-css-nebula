@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className="grid grid-cols-2 h-screen items-center mob:grid-cols-1">
       <div className="flex flex-col space-y-8 mob:space-y-5 ">
-        <h1 className=" text-primary text-6xl font-semibold mob:text-5xl">
+        <h1 className=" text-primary text-7xl font-semibold mob:text-5xl">
           The Best <b className="text-secondary">marketing</b>
         </h1>
         <h1 className=" text-primary text-4xl font-semibold mob:text-3xl">
