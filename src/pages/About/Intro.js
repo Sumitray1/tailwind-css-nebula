@@ -15,7 +15,7 @@ function Intro() {
           ></lottie-player>
         </div>
         <div className="z-10">
-          <h1 className="text-8xl z-10 font-bold text-white border-b-2 pb-3  mt-24 mb-2 tracking-wider	-ml-24 mob:text-primary mob:ml-auto mob:text-6xl mob:border-secondary">
+          <h1 className="text-8xl z-10 font-bold text-secondary border-b-2 pb-3  mt-24 mb-2 tracking-wider	-ml-24 mob:text-primary mob:ml-auto mob:text-6xl mob:border-secondary">
             Nebula
           </h1>
 
