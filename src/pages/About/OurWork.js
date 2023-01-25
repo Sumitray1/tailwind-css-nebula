@@ -17,14 +17,14 @@ function OurWork() {
     },
     {
       title: "UI/UX  Design",
-      src: "https://assets4.lottiefiles.com/packages/lf20_w5hernhv.json",
+      src: "https://assets8.lottiefiles.com/packages/lf20_CWJuurYyXv.json",
       description:
-        "UI/UX design refers to the process of designing the user interface and user experience of a product, such as a website or mobile app. ",
+      "UI/UX design refers to the process of designing the user interface and user experience of a product, such as a website or mobile app. ",
     },
-
+    
     {
       title: "Graphic Design",
-      src: "https://assets8.lottiefiles.com/packages/lf20_CWJuurYyXv.json",
+      src: "https://assets4.lottiefiles.com/packages/lf20_w5hernhv.json",
       description:
         "Graphic design is the process of visual communication and problem-solving through the use of typography, photography, and illustration.",
     },
